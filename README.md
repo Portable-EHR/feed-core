@@ -1,6 +1,6 @@
 ### feedCore librairies
 
-This module include multiple libraries that is likely to be required in any Feed implementation.
+This module include multiple libraries that are likely to be required in any Feed implementation.
 
 - api : the basic functions which, in combination with sapi, makes routes handling trivial, notably:
     - handeReq 
