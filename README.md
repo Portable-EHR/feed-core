@@ -1,4 +1,4 @@
-### feedCore librairies
+### feedcore librairies
 
 This module include multiple libraries that are likely to be required in any Feed implementation.
 
@@ -25,9 +25,9 @@ This module include multiple libraries that are likely to be required in any Fee
     - EFeedKind enums, and 
     - FeedByFeedKind mapOb.
 
-- config : the nodeCore/lib/config NodeConfig class extension, common to all Feeds.
+- config : the nodecore/lib/config NodeConfig class extension, common to all Feeds.
 
-- dao : uses nodeCore lib/dao to provide :
+- dao : uses nodecore lib/dao to provide :
     - FeedRecord and 
     - FeedRecordItem classes, used to extend Record classes using : 
     - Field and 
