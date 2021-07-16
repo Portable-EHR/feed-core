@@ -27,7 +27,7 @@ This module include multiple libraries that are likely to be required in any Fee
 
 - config : the nodecore/lib/config NodeConfig class extension, common to all Feeds.
 
-- dao : uses nodecore lib/dao to provide :
+- my-dao : uses nodecore lib/my-dao to provide :
     - FeedRecord and 
     - FeedRecordItem classes, used to extend Record classes using : 
     - Field and 
@@ -38,7 +38,7 @@ This module include multiple libraries that are likely to be required in any Fee
     - UniOwned and
     - MultiOwned functions for RecordJoined class extension.
     
-- dao.patient : provides :
+- my-dao.patient : provides :
     - BirthPlaceRecord class 
     - CivicAddressRecord class 
     - MultiAddressRecord class 
@@ -51,11 +51,11 @@ This module include multiple libraries that are likely to be required in any Fee
     - EGender enum
     - ELanguage enum
     
-- dao.practitioner : provides :
+- my-dao.practitioner : provides :
     - PractitionerLegitIdRecord class and
     - PractionerRecord class
     
-- dao.rdv : provides :
+- my-dao.rdv : provides :
     - RdvRecord class
     - RdvPractitionerRecord class
     - AppointmentRecord class
@@ -64,7 +64,7 @@ This module include multiple libraries that are likely to be required in any Fee
     - ERdvLocation enum
     - ERdvConfirmationStatus enum
  
-- dao.privateMessage : provides :
+- my-dao.privateMessage : provides :
     - PrivateMessageAttachmentRecord class
     - PrivateMessageRecord class    
     - PrivateMessageContentRecord class 
