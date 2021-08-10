@@ -6,9 +6,8 @@
     "start": "node ../nodecore/bin/NodeServer"
   },
   "dependencies": {
-    "@portable-ehr/nodecore": "1.0.0",
-    "log4js": "^6.3.0",
-    "npm": "^7.19.0",
+    "@portable-ehr/nodecore": "1.1.0",
+    "npm": "^7.20.5",
     "secure-random": "^1.1.2",
     "uuid": "^8.3.2"
   }
