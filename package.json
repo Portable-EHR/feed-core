@@ -1,13 +1,13 @@
 {
   "name": "@portable-ehr/feedcore",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "license": "Apache 2.0",
   "scripts": {
     "start": "node ../nodecore/bin/NodeServer"
   },
   "dependencies": {
-    "@portable-ehr/nodecore": "1.2.1",
-    "npm": "^7.20.5",
+    "@portable-ehr/nodecore": "1.2.2",
+    "npm": "^7.20.6",
     "secure-random": "^1.1.2",
     "uuid": "^8.3.2"
   }
